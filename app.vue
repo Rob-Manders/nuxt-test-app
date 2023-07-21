@@ -6,8 +6,7 @@
       <p>{{ user.displayName }}</p>
       <img :src="user.photoURL ?? ''" />
     </div>
-    <p>{{ testCollection }}</p>
-    <p>{{ testDocument }}</p>
+    <p v-for="document in testCollection">{{ document.name }}</p>
   </div>
 </template>
 

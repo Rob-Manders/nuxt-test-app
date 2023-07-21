@@ -1,0 +1,20 @@
+{
+  "functions": {
+    "source": ".output/server"
+  },
+  "hosting": {
+    "site": "nuxt-test-app-64e24",
+    "public": ".output/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "server"
+      }
+    ]
+  }
+}
