@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   vuefire: {
     auth: true,
     config: {
-      apiKey: 'AIzaSyBRXScBNxg3SOAAsMSCix2KK2GCthvKQ88',
+      apiKey: process.env.API_KEY,
       authDomain: 'nuxt-test-app-64e24.firebaseapp.com',
       projectId: 'nuxt-test-app-64e24',
       appId: '1:775665757454:web:792216742647f38fac3b5f'
