@@ -6,6 +6,8 @@
 			<p>{{ user.displayName }}</p>
 			<img :src="user.photoURL ?? ''" />
 		</div>
+		<NuxtLink to="/page">A Page</NuxtLink> |
+		<NuxtLink to="/protected">A Protected Paged</NuxtLink>
 	</nav>
 	<slot />
 </template>

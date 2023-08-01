@@ -1,5 +1,5 @@
 <template>
-	Restricted page.
+	Protected page.
 </template>
 
 <script setup lang="ts">
