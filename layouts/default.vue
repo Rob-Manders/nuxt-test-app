@@ -7,7 +7,7 @@
 			<img :src="user.photoURL ?? ''" />
 		</div>
 		<NuxtLink to="/page">A Page</NuxtLink> |
-		<NuxtLink to="/protected">A Protected Paged</NuxtLink>
+		<NuxtLink to="/protected">A Protected Page</NuxtLink>
 	</nav>
 	<slot />
 </template>
